@@ -1,0 +1,270 @@
+/*******************************************************************************
+MAIN.CSS:
+
+Note that this is the CSS for the mobile version -- additional CSS for larger
+screens can be found in the responsive.css file
+
+o fonts and colors are located at the top for your formatting convenience.
+o general formatting settings applied across elements in many pages
+o specific 'header' and 'footer' formatting
+o formatting that is specific to individual html pages
+*******************************************************************************/
+
+/*******************************************************************************
+FONTS
+*******************************************************************************/
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+  /*font-family: 'Bitter', 'Georgia', sans-serif;*/
+  font-family: 'Josefin Slab', serif;
+  text-transform: uppercase;
+  font-size: 2.75em;
+  font-weight: normal;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.25em;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Josefin Slab', serif;
+  font-size: 2.25em;
+}
+
+h4 {
+  font-family: 'Raleway', sans-serif;
+  font-size:1.25em;
+  font-weight: normal;
+}
+
+footer {
+    font-size: 0.75em;
+}
+
+#gallery li a p {
+  font-size: 0.75em;
+}
+
+/*******************************************************************************
+COLORS
+
+FONT: #435961
+  a dark, low-chroma blue
+
+DARK COLOR: #497491
+  darker color for nav sub-bar
+
+LIGHT COLOR: #95BFDB
+  a lighter low-chroma color for the top header
+
+LINKS: #397FAD
+  high chroma
+
+ALMOST WHITE: E8F3FA
+  for mouseover links
+
+BACKGROUND COLOR: #B4D5E0
+  light blue to match the bg image
+
+*******************************************************************************/
+
+body {
+  background-color: #B4D5E0;
+  color: #435961;
+  height: 100%;
+}
+
+header {
+  background-color: #95BFDB; /* light blue nav bar */
+  border-color: #435961;
+  /*opacity: 0.75;*/
+}
+
+nav {
+  background-color: #497491; /* mobile sub-header */
+}
+
+h1, h2 {
+  color: #fff;
+}
+
+h3 {
+  color: #497491;
+}
+
+a {
+  color: #397FAD; /* slightly more vibrant blue */
+}
+
+a:hover {
+  color: #EBF5FC;
+}
+
+nav a, nav a:visited {
+  color: #fff;
+}
+
+nav a.selected, nav a:hover {
+  color: #95BFDB;
+}
+
+#gallery li {
+  color: #435961; /* only displays if the text is not linked */
+}
+
+#gallery li a p {
+  color: #397FAD;
+}
+
+
+
+/*******************************************************************************
+GENERAL FORMATTING
+*******************************************************************************/
+
+body{
+  margin: 0;
+  background: url("../img/pines2.jpg") no-repeat top center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+a{
+  text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.container {
+  min-width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+
+}
+
+#wrapper{
+  max-width: 940px;
+  margin: 0 auto;   /* top and bottom margins are 0; automatically set L and R margins */
+  padding: 0 5%;
+  text-align: center;
+}
+
+/*******************************************************************************
+HEADING
+*******************************************************************************/
+
+
+header{
+  float: left; /*useful for our desktop version*/
+  margin: 0 0 15px 0; /* sets header apart from content below it, getting rid of initial whitespace */
+  padding: 5px 0 0 0;
+  width: 100%;
+  z-index:2;
+
+}
+
+#logo{
+  text-align: center;
+  margin: 0;
+}
+
+h2{
+  margin: -5px 0 0;
+}
+
+h3{
+  margin: 0 0 30px 0; /* adds space below h3 */
+}
+
+
+/*******************************************************************************
+NAVIGATION
+*******************************************************************************/
+
+nav{
+  text-align: center;
+  padding: 5px 0;
+  margin: 10px 0 0;
+}
+
+nav a{
+  font-weight: 700;
+  padding: 15px 10px; /* puts clickable padding around the text, making it easier to select */
+}
+
+nav ul{
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+nav li{
+  display: inline-block;
+}
+
+
+/*******************************************************************************
+FOOTER
+*******************************************************************************/
+
+footer{
+  clear: both; /* places the footer below the floated gallery items */
+  text-align: center;
+  padding: 100px 0 30px 0;
+}
+
+.social-icon{
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+}
+
+
+
+/*******************************************************************************
+PAGE: WORK
+*******************************************************************************/
+
+#gallery{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.details p {
+  padding: 0 5px 0 5px;
+}
+
+
+
+/*******************************************************************************
+PAGE: CONTACT
+*******************************************************************************/
+
+.profile-photo{
+  display: block;
+  max-width: 150px;
+  margin: 0 auto 30px;
+  border-radius: 100%;
+}
+
+
+/*******************************************************************************
+SMILE ^___^ YOU DONE
+*******************************************************************************/
