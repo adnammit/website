@@ -16,39 +16,69 @@ FONTS
 
 body {
     font-family: 'Raleway', sans-serif;
+    /* font-family: 'Raleway', sans-serif; */
 }
 
 h1 {
-  /*font-family: 'Bitter', 'Georgia', sans-serif;*/
-  font-family: 'Josefin Slab', serif;
-  text-transform: uppercase;
-  font-size: 2.75em;
-  font-weight: normal;
+    /* font-family: 'Rokkitt', 'Georgia', sans-serif; */
+    font-family: 'Sanchez', 'Georgia', sans-serif;
+    /* font-family: 'Bree Serif', 'Georgia', sans-serif; */
+    /* font-family: 'Bitter', 'Georgia', sans-serif; */
+    /* font-family: 'Josefin Slab', serif; */
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    /* font-size: 2.75em; */
+    font-size: 300%;
+    font-weight: lighter;
 }
 
+/* not used */
+/* h2 {
+font-family: 'Raleway', sans-serif;
+text-transform: uppercase;
+font-size: 125%;
+font-weight: normal;
+} */
+
 h2 {
-  font-family: 'Raleway', sans-serif;
-  font-size: 1.25em;
-  font-weight: normal;
+    font-family: 'Sanchez', 'Georgia', sans-serif;
+    /* font-family: 'Rokkitt', 'Georgia', sans-serif; */
+    /* font-family: 'Josefin Slab', serif; */
+    /* text-transform: uppercase; */
+    font-size: 200%;
+    letter-spacing: 3px;
+    /* font-size: 2.25em; */
 }
 
 h3 {
-  font-family: 'Josefin Slab', serif;
-  font-size: 2.25em;
+    font-family: 'Sanchez', 'Georgia', sans-serif;
+    font-size: 175%;
+    letter-spacing: 2px;
+    font-weight: normal;
 }
 
+/* just for the text in index.html */
 h4 {
-  font-family: 'Raleway', sans-serif;
-  font-size:1.25em;
-  font-weight: normal;
+    font-family: 'Raleway', sans-serif;
+    font-size: 125%;
+    font-weight: normal;
 }
+
+/* regular font but bigger */
+/* h5 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+    font-size: 125%;
+    margin: 0;
+    padding: 0;
+} */
 
 footer {
-    font-size: 0.75em;
+    font-size: 75%;
 }
 
 #gallery li a p {
-  font-size: 0.75em;
+    font-size: 75%;
 }
 
 /*******************************************************************************
@@ -90,16 +120,16 @@ nav {
   background-color: #497491; /* mobile sub-header */
 }
 
-h1, h2 {
+h1 {
   color: #fff;
 }
 
-h3 {
+h2, h3 {
   color: #497491;
 }
 
 a {
-  color: #397FAD; /* slightly more vibrant blue */
+  color: #397FAD; /* slightly more vibrant blue */ blue */
 }
 
 a:hover {
@@ -122,7 +152,17 @@ nav a.selected, nav a:hover {
   color: #397FAD;
 }
 
+.work-row:hover {
+    background-color: white;
+    opacity: 0.5;
+}
+.work-row .work-cell {
+    color: #435961;
+}
 
+.work-row:hover .work-label-cell {
+    color: #397FAD;
+}
 
 /*******************************************************************************
 GENERAL FORMATTING
@@ -146,8 +186,8 @@ img{
 }
 
 ul {
-  list-style: none;
-  padding: 0;
+  list-style-type: none;
+  padding: 0 0 20px 0;
 }
 
 .container {
@@ -155,7 +195,13 @@ ul {
   height: 100%;
   margin: 0;
   padding: 0;
+}
 
+.chunk {
+    ul {
+        list-style: none;
+    }
+    padding: 40px 0 10px 0;
 }
 
 #wrapper{
@@ -189,7 +235,7 @@ h2{
 }
 
 h3{
-  margin: 0 0 30px 0; /* adds space below h3 */
+  margin: 0;
 }
 
 
@@ -241,6 +287,40 @@ footer{
 PAGE: WORK
 *******************************************************************************/
 
+.work-table {
+    display: block;
+    max-width: 75%;
+    align: center;
+    margin: auto;
+}
+
+.work-header {
+    display: block;
+    padding: 30px 0 5px 0;
+}
+
+.work-row {
+    display: block;
+    margin: 5px;
+    border-radius: 15px;
+}
+
+/* these move side-by-side when screen size is over 660, managed by responsive.css */
+.work-label-cell {
+    /* float: left;
+    width: 30%; */
+    display: block;
+    padding: 15px;
+}
+
+.work-cell {
+    /* margin-left: 30%; */
+    display: block;
+    text-align: left;
+    padding: 15px;
+}
+
+/* old stuff:  */
 #gallery{
   margin: 0;
   padding: 0;
@@ -258,12 +338,35 @@ PAGE: CONTACT
 *******************************************************************************/
 
 .profile-photo{
-  display: block;
+  /* display: block; */
   max-width: 150px;
   margin: 0 auto 30px;
   border-radius: 100%;
 }
 
+.bulleted {
+    list-style-type: disc;
+    text-align: left;
+    margin: auto;
+    padding-left: 25px;
+}
+
+div.bullet-container {
+    /* width: 50%; */
+    margin: auto;
+    text-align: left;
+    padding: 20px 0 50px 0;
+    display: inline-block;
+}
+
+div.bullet-container h4{
+    margin: 0 0 0 -10px;
+    padding: 0;
+}
+/*
+.clear-block{
+  display: table;
+} */
 
 /*******************************************************************************
 SMILE ^___^ YOU DONE

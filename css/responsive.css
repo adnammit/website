@@ -31,14 +31,31 @@
   }
 
 
+  /*****************************************************************************
+    WORK: CELLS SIT NEXT TO EACH OTHER, NOT ON TOP OF EACH OTHER
+  *****************************************************************************/
+  .work-label-cell {
+      float: left;
+      display: inline-block;
+      width: 30%;
+  }
+
+  .work-cell {
+      margin-left: 40%;
+      /* width: 60%; */
+      /* float: right; */
+      text-align: left;
+      /* display: inline-flex; */
+  }
+
 
 
   /*****************************************************************************
     CONTACT: TWO-COLUMN LAYOUT
   *****************************************************************************/
   .profile-photo {
-    float: left;
-    margin: 0 5% 100px 0;
+    /* float: left; */
+    margin: 0 5% 20px 0;
   }
 }
 
