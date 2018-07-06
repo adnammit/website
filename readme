@@ -1,4 +1,7 @@
-#amandaryman.com
+# amandaryman.com
 
-Here is all of the source code for my personal website, including the 
-'portfolio' sub-site.
+Here is all of the source code for my personal website.
+
+### TO DO:
+* overhaul portfolio website
+* convert css to use LESS or SASS

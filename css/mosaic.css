@@ -3,8 +3,6 @@
 	float:left;
 	position:relative;
 	overflow:hidden;
-	/*width: 275px;
-	height:172px;*/
 	width: 275px;
 	height: 235px;
 	margin:10px;
@@ -34,8 +32,6 @@
 .bar .mosaic-overlay {
 	bottom:-190px;
 	height:170px;
-    /* height:100px; */
-	/*background:url(../img/bg-black.png);*/
 	background-color: #C7DCED;
 	opacity: 0.9;
 }

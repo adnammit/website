@@ -42,10 +42,7 @@
 
   .work-cell {
       margin-left: 40%;
-      /* width: 60%; */
-      /* float: right; */
       text-align: left;
-      /* display: inline-flex; */
   }
 
 
@@ -54,7 +51,6 @@
     CONTACT: TWO-COLUMN LAYOUT
   *****************************************************************************/
   .profile-photo {
-    /* float: left; */
     margin: 0 5% 20px 0;
   }
 }
