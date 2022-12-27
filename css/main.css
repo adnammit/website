@@ -15,43 +15,50 @@ FONTS
 *******************************************************************************/
 
 body {
-    font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 h1 {
-    font-family: 'Sanchez', 'Georgia', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 6px;
-    font-size: 300%;
-    font-weight: lighter;
+  font-family: 'Sanchez', 'Georgia', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  font-size: 300%;
+  font-weight: lighter;
 }
 
 h2 {
-    font-family: 'Sanchez', 'Georgia', sans-serif;
-    font-size: 200%;
-    letter-spacing: 3px;
+  font-family: 'Sanchez', 'Georgia', sans-serif;
+  font-size: 200%;
+  letter-spacing: 3px;
 }
 
 h3 {
-    font-family: 'Sanchez', 'Georgia', sans-serif;
-    font-size: 175%;
-    letter-spacing: 2px;
-    font-weight: normal;
+  font-family: 'Sanchez', 'Georgia', sans-serif;
+  font-size: 175%;
+  letter-spacing: 2px;
+  font-weight: normal;
 }
 
 /* just for the text in index.html */
 h4 {
-    font-family: 'Raleway', sans-serif;
-    font-size: 125%;
-    font-weight: normal;
+  font-family: 'Raleway', sans-serif;
+  font-size: 125%;
+  font-weight: normal;
 }
 
 footer {
-    font-size: 75%;
+  font-size: 75%;
 }
 
 #gallery li a p {
-    font-size: 75%;
+  font-size: 75%;
+}
+
+.stack-icon {
+  width: 24px;
+  height: 24px;
+  padding: 0 6px;
+  filter: invert(47%) sepia(18%) saturate(967%) hue-rotate(161deg) brightness(86%) contrast(90%);
 }
 
 /*******************************************************************************
@@ -84,40 +91,48 @@ body {
 }
 
 header {
-  background-color: #95BFDB; /* light blue nav bar */
+  background-color: #95BFDB;
+  /* light blue nav bar */
   border-color: #435961;
 }
 
 nav {
-  background-color: #497491; /* mobile sub-header */
+  background-color: #497491;
+  /* mobile sub-header */
 }
 
 h1 {
   color: #fff;
 }
 
-h2, h3 {
+h2,
+h3 {
   color: #497491;
 }
 
 a {
-  color: #397FAD; /* slightly more vibrant blue */ blue */
+  color: #397FAD;
+  /* slightly more vibrant blue */
+  blue */
 }
 
 a:hover {
   color: #EBF5FC;
 }
 
-nav a, nav a:visited {
+nav a,
+nav a:visited {
   color: #fff;
 }
 
-nav a.selected, nav a:hover {
+nav a.selected,
+nav a:hover {
   color: #95BFDB;
 }
 
 #gallery li {
-  color: #435961; /* only displays if the text is not linked */
+  color: #435961;
+  /* only displays if the text is not linked */
 }
 
 #gallery li a p {
@@ -125,22 +140,23 @@ nav a.selected, nav a:hover {
 }
 
 .work-row:hover {
-    background-color: white;
-    opacity: 0.5;
+  background-color: white;
+  opacity: 0.5;
 }
+
 .work-row .work-cell {
-    color: #435961;
+  color: #435961;
 }
 
 .work-row:hover .work-label-cell {
-    color: #397FAD;
+  color: #397FAD;
 }
 
 /*******************************************************************************
 GENERAL FORMATTING
 *******************************************************************************/
 
-body{
+body {
   margin: 0;
   background: url("../img/pines2.jpg") no-repeat top center fixed;
   -webkit-background-size: cover;
@@ -149,12 +165,12 @@ body{
   background-size: cover;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
-img{
-    max-width: 100%;
+img {
+  max-width: 100%;
 }
 
 ul {
@@ -170,15 +186,17 @@ ul {
 }
 
 .chunk {
-    ul {
-        list-style: none;
-    }
-    padding: 40px 0 10px 0;
+  ul {
+    list-style: none;
+  }
+
+  padding: 40px 0 10px 0;
 }
 
-#wrapper{
+#wrapper {
   max-width: 940px;
-  margin: 0 auto;   /* top and bottom margins are 0; automatically set L and R margins */
+  margin: 0 auto;
+  /* top and bottom margins are 0; automatically set L and R margins */
   padding: 0 5%;
   text-align: center;
 }
@@ -188,25 +206,27 @@ HEADING
 *******************************************************************************/
 
 
-header{
-  float: left; /*useful for our desktop version*/
-  margin: 0 0 15px 0; /* sets header apart from content below it, getting rid of initial whitespace */
+header {
+  float: left;
+  /*useful for our desktop version*/
+  margin: 0 0 15px 0;
+  /* sets header apart from content below it, getting rid of initial whitespace */
   padding: 5px 0 0 0;
   width: 100%;
-  z-index:2;
+  z-index: 2;
 
 }
 
-#logo{
+#logo {
   text-align: center;
   margin: 0;
 }
 
-h2{
+h2 {
   margin: -5px 0 0;
 }
 
-h3{
+h3 {
   margin: 0;
 }
 
@@ -215,24 +235,25 @@ h3{
 NAVIGATION
 *******************************************************************************/
 
-nav{
+nav {
   text-align: center;
   padding: 5px 0;
   margin: 10px 0 0;
 }
 
-nav a{
+nav a {
   font-weight: 700;
-  padding: 15px 10px; /* puts clickable padding around the text, making it easier to select */
+  padding: 15px 10px;
+  /* puts clickable padding around the text, making it easier to select */
 }
 
-nav ul{
+nav ul {
   list-style: none;
   margin: 0 10px;
   padding: 0;
 }
 
-nav li{
+nav li {
   display: inline-block;
 }
 
@@ -241,13 +262,14 @@ nav li{
 FOOTER
 *******************************************************************************/
 
-footer{
-  clear: both; /* places the footer below the floated gallery items */
+footer {
+  clear: both;
+  /* places the footer below the floated gallery items */
   text-align: center;
   padding: 100px 0 30px 0;
 }
 
-.social-icon{
+.social-icon {
   width: 20px;
   height: 20px;
   margin: 0 5px;
@@ -260,37 +282,38 @@ PAGE: WORK
 *******************************************************************************/
 
 .work-table {
-    display: block;
-    max-width: 75%;
-    align: center;
-    margin: auto;
+  display: block;
+  max-width: 75%;
+  align: center;
+  margin: auto;
 }
 
 .work-header {
-    display: block;
-    padding: 30px 0 5px 0;
+  display: block;
+  padding: 5px 0;
 }
 
 .work-row {
-    display: block;
-    margin: 5px;
-    border-radius: 15px;
+  display: block;
+  margin: 20px;
+  padding: 20px 0;
+  border-radius: 15px;
 }
 
 /* these move side-by-side when screen size is over 660, managed by responsive.css */
 .work-label-cell {
-    display: block;
-    padding: 15px;
+  display: block;
+  padding: 15px;
 }
 
 .work-cell {
-    display: block;
-    text-align: left;
-    padding: 15px;
+  display: block;
+  text-align: left;
+  padding: 15px;
 }
 
 /* old stuff:  */
-#gallery{
+#gallery {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -306,29 +329,29 @@ PAGE: WORK
 PAGE: CONTACT
 *******************************************************************************/
 
-.profile-photo{
+.profile-photo {
   max-width: 150px;
   margin: 0 auto 30px;
   border-radius: 100%;
 }
 
 .bulleted {
-    list-style-type: disc;
-    text-align: left;
-    margin: auto;
-    padding-left: 25px;
+  list-style-type: disc;
+  text-align: left;
+  margin: auto;
+  padding-left: 25px;
 }
 
 div.bullet-container {
-    margin: auto;
-    text-align: left;
-    padding: 20px 0 50px 0;
-    display: inline-block;
+  margin: auto;
+  text-align: left;
+  padding: 20px 0 50px 0;
+  display: inline-block;
 }
 
-div.bullet-container h4{
-    margin: 0 0 0 -10px;
-    padding: 0;
+div.bullet-container h4 {
+  margin: 0 0 0 -10px;
+  padding: 0;
 }
 
 /*******************************************************************************
